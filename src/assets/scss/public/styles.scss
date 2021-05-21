@@ -1,0 +1,36 @@
+/*#chromeperfectpixel-overlay-container, .chromeperfectpixel-overlay {
+	pointer-events: none!important;
+}
+.chromeperfectpixel-panel-ads { display: none!important; }*/
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+html {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	height: 100%;
+	font-size: 10px;
+}
+
+body {
+	position: relative;
+	min-width: 320px;
+	overflow-x: hidden;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.no-scroll {
+	overflow-y: hidden;
+	touch-action: none;
+	-webkit-overflow-scrolling: touch;
+}
+
+.clearfix:after, .clearfix:before  {
+	content: "";
+	clear: both;
+	display: table;
+}
